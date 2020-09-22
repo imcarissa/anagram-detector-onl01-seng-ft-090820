@@ -6,9 +6,6 @@ class Anagram
   end
   
   def match(string)
-  if string == word
-    true 
-  else
-    false 
-  end
+    string.each do |w|
+      w
 end
